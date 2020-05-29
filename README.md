@@ -88,12 +88,12 @@ Instances of these categories are currently not detected automatically, but rath
 There are exceptions where searchterms are included in the data, even though they belong to one of the exclusion categories.
 In particular, we allow the following kinds of searchterms:
 
-- **Personal names of public figures.**\
+- **Personal names of public figures**\
 The criterion for being a public figure is: there is a (stable) Wikipedia page for that person.
 The criteria for people to have Wikipedia page are defined [here](https://en.wikipedia.org/wiki/Wikipedia:Notability_(people) "Definition of notability for people on Wikipedia").\
 Another possible criterion is that a name has an entry in a bibliographic [authority file](https://en.wikipedia.org/wiki/Authority_control) (something like a database of all known authors), such as the [Gemeinsame Normdatei](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html).
 In other words, a name is the name of a published author.
-- **Functional e-mail addresses.**\
+- **Functional e-mail addresses**\
 Functional e-mail addresses (addresses not tied to a particular person, but to a role or a post such as `info@example.com`, `opendata@berlin.de` etc.) do not contain personal information and can therefore be included.
 
 ## Logo
