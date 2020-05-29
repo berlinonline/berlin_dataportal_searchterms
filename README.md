@@ -29,7 +29,7 @@ The following example illustrates the structure of the data file:
 
 ```json
 {
-  "timestamp": "2020-05-27T15:03:30+02:00",
+  "timestamp": "2020-05-29T15:21:32+02:00",
   "source": "Webtrekk",
   "stats": {
     "site_uri": "daten.berlin.de",
@@ -39,22 +39,28 @@ The following example illustrates the structure of the data file:
       "2020-04": {
         "terms": {
           "corona": {
-            "impressions": 20,
-            "visits": 27,
+            "impressions": 27,
+            "visits": 20,
             "page_duration_avg": 36.81,
             "exit_rate": 20.0
           },
           "verkehr": {
-            "impressions": 8,
-            "visits": 24,
+            "impressions": 24,
+            "visits": 8,
             "page_duration_avg": 38.08,
             "exit_rate": 0.0
           },
           ...
+          "new york": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 0.0,
+            "exit_rate": 0.0
+          }
         },
         "removed_items": {
-          "comment": "Removed 1 searchterms as potentially personal information.",
-          "count": 1
+          "comment": "Removed 13 searchterms as potentially personal information.",
+          "count": 13
         }
       },
       "2020-03": {
