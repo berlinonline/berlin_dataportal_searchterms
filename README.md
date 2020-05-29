@@ -79,15 +79,15 @@ All searchterms that potentially contain personal information are removed from t
 In particular, the following categories of searchterms are removed:
 
 - personal names
-- (postal) Addresses
+- (postal) addresses
 - geographic coordinates
 - personal e-mail adresses
-- phonenumbers
+- phone numbers
 - land lots (German „Flurstück“)
 
 ### Blacklist
 
-Instances of these categories are currently not detected automatically, but rather manually via the use of a blacklist (naturally not included in this repository), which is being extended each time the dataset is updated (i.e., every month).
+Instances of these categories are currently not detected automatically, but rather manually via the use of a blacklist (not included in this repository), which is being extended each time the dataset is updated (i.e., every month).
 
 ### Whitelist
 
