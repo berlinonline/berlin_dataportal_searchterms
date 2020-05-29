@@ -96,6 +96,10 @@ In other words, a name is the name of a published author.
 - **Functional e-mail addresses.**\
 Functional e-mail addresses (addresses not tied to a particular person, but to a role or a post such as `info@example.com`, `opendata@berlin.de` etc.) do not contain personal information and can therefore be included.
 
+## Logo
+
+- [search](https://fontawesome.com/icons/search) logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ## License
 
 All software in this repository is published under the [MIT License](LICENSE).
