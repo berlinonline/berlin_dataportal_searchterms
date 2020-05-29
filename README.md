@@ -102,6 +102,47 @@ In other words, a name is the name of a published author.
 - **Functional e-mail addresses**\
 Functional e-mail addresses (addresses not tied to a particular person, but to a role or a post such as `info@example.com`, `opendata@berlin.de` etc.) do not contain personal information and can therefore be included.
 
+## Searchterm Normalization
+
+Searchterms are currently not normalized in any way.
+This means that different spellings of the same term (most importantly: differences in case) are treated as different searchterms.
+It is possible to sum page impressions for each term.
+This is not possible for visits, because the same visit might be include two or more searchterms, and so the actual number of visits for a set of searchterms might be less than the sum of visits for all of them.
+
+For example:
+
+```json
+{
+...
+  "terms": {
+    "corona": {
+      "impressions": 27,
+      "visits": 20,
+      "page_duration_avg": 36.81,
+      "exit_rate": 20.0
+    },
+    ...
+    "Corona": {
+      "impressions": 8,
+      "visits": 6,
+      "page_duration_avg": 21.25,
+      "exit_rate": 0.0
+    },
+    ...
+    "covid": {
+      "impressions": 2,
+      "visits": 2,
+      "page_duration_avg": 13.0,
+      "exit_rate": 0.0
+    },
+...
+}
+```
+
+People searched for `corona` (lower case), `Corona` (upper case), `covid` and possibly other related searchterms.
+It would be valid to say that the total number of page impressions for all spellings of `corona` is `27+8=35`, and `27+8+2=37` for all Corona-related searches.
+However, the total number of visits for all spellings of `corona` is `20+6=26` _or less_ because some of these searches may have occured within the same visit.
+
 ## Logo
 
 - [search](https://fontawesome.com/icons/search) logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
