@@ -1,0 +1,67 @@
+{
+    "ernst fischer": {
+        "variants": [
+            "ernst fischer Ernst OR Fischer",
+            "ernst fischer",
+            "Ernst Fischer"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Ernst_Fischer"
+        ]
+    } ,
+    "Annie France-Harrar" : {
+        "variants": [
+            "Annie France-Harrar"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Annie_Francé-Harrar"
+        ]
+    } ,
+    "Max Brod": {
+        "variants": [
+            "Max Brod"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Max_Brod"
+        ]
+    } ,
+    "otto gross": {
+        "variants": [
+            "otto gross"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Otto_Groß"
+        ]
+    } ,
+    "vermessung AT ba-fk.berlin.de": {
+        "variants": [
+            "vermessung AT ba-fk.berlin.de"
+        ] ,
+        "reference": [
+            "https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/"
+        ]
+    } ,
+    "vermessung at berlin.de": {
+        "variants": [
+            "vermessung at berlin.de"
+        ] ,
+        "reference": [
+        ]
+    } ,
+    "wolfgang goetz": {
+        "variants": [
+            "wolfgang goetz"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Wolfgang_Götz"
+        ]
+    } ,
+    "Wehle, Gerhard Fürchtegott": {
+        "variants": [
+            "Wehle, Gerhard Fürchtegott"
+        ] ,
+        "reference": [
+            "http://d-nb.info/gnd/135001706"
+        ]
+    }    
+}

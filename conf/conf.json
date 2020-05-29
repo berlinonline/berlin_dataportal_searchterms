@@ -1,0 +1,36 @@
+{
+    "site_uri" : "daten.berlin.de" ,
+    "startDate": "2019-02-01" ,
+    "searchterms": {
+        "rowLimit": 10000,
+        "hideFooters": 1 ,
+        "analysisObjects": [
+            {
+                "title": "Pages"
+            }
+        ] ,
+        "analysisFilter": {
+            "filterRules": [
+                {
+                    "objectTitle": "Pages" ,
+                    "comparator": "=" ,
+                    "filter": "daten.berlin.de/search/node/*"
+                }
+            ]
+        } ,
+        "metrics": [
+            {
+                "title": "Page Impressions"
+            } ,
+            {
+                "title": "Visits"
+            } ,
+            {
+                "title": "Page Duration Avg"
+            } ,
+            {
+                "title": "Exit Rate %"
+            }
+        ]
+    }
+}
