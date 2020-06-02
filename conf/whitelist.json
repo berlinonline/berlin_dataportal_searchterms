@@ -63,5 +63,11 @@
         "reference": [
             "http://d-nb.info/gnd/135001706"
         ]
+    } ,
+    "ba-fk.berlin.de": {
+        "variants": [
+            "ba-fk.berlin.de",
+            "ba-fk.verwalt-berlin.de"
+        ]
     }    
 }
