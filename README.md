@@ -23,6 +23,8 @@ bundle install
 
 ## daten_berlin_de.searchterms.json
 
+Download here: [daten_berlin_de.searchterms.json](https://berlinonline.github.io/berlin_dataportal_searchterms/data/target/daten_berlin_de.searchterms.json)
+
 For each searchterm that was entered in a given month, the page impressions, visits, average page duration (in seconds) and exit rate (%) are listed. 
 
 The following example illustrates the structure of the data file:
