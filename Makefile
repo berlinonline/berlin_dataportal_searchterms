@@ -21,7 +21,7 @@ data/target/daten_berlin_de.searchterms.%.csv:
 	@bin/csv_for.sh data/target/daten_berlin_de.searchterms.json $@
 
 filtered: data/temp/daten_berlin_de.searchterms.filtered.json
-data/temp/daten_berlin_de.searchterms.filtered.json: data/temp/daten_berlin_de.searchterms.unfiltered.json conf/blacklist.json conf/whitelist.json
+data/temp/daten_berlin_de.searchterms.filtered.json: data/temp/daten_berlin_de.searchterms.unfiltered.json conf/blocklist.json conf/allowlist.json
 	@echo "filtering $< for personal data, applying $(word 2,$^) ..."
 	@echo "writing to $@ ..."
 	@ruby bin/filter_searchterms.rb $< $@ data/temp/rejected.csv $(word 2,$^) $(word 3,$^)

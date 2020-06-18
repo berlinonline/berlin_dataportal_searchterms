@@ -5,20 +5,20 @@ require 'logger'
 require_relative '../lib/personal_data_filter.rb'
 
 if ARGV.length != 5
-    puts "usage: ruby #{ __FILE__} UNFILTERED_IN.json FILTERED_OUT.json REJECTED.csv BLACKLIST.json WHITELIST.json"
+    puts "usage: ruby #{ __FILE__} UNFILTERED_IN.json FILTERED_OUT.json REJECTED.csv BLOCKLIST.json ALLOWLIST.json"
     exit
 end
 
 unfiltered_path = ARGV[0]
 filtered_path = ARGV[1]
 rejected_path = ARGV[2]
-blacklist_path = ARGV[3]
-whitelist_path = ARGV[4]
+blocklist_path = ARGV[3]
+allowlist_path = ARGV[4]
 
 logger = Logger.new(STDERR)
 filter = PersonalDataFilter.new( {
-    :blacklist_path => blacklist_path ,
-    :whitelist_path => whitelist_path ,
+    :blocklist_path => blocklist_path ,
+    :allowlist_path => allowlist_path ,
     :logger => logger
 })
 

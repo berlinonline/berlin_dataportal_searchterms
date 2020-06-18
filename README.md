@@ -87,11 +87,11 @@ In particular, the following categories of searchterms are removed:
 - phone numbers
 - land lots (German „Flurstück“)
 
-### Blacklist
+### Blocklist
 
-Instances of these categories are currently not detected automatically, but rather manually via the use of a blacklist (not included in this repository), which is being extended each time the dataset is updated (i.e., every month).
+Instances of these categories are currently not detected automatically, but rather manually via the use of a blocklist (not included in this repository), which is being extended each time the dataset is updated (i.e., every month).
 
-### Whitelist
+### Allowlist
 
 There are exceptions where searchterms are included in the data, even though they belong to one of the exclusion categories.
 In particular, we allow the following kinds of searchterms:

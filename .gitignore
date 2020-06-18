@@ -3,5 +3,5 @@
 
 *.lock
 
-conf/blacklist.json
+conf/blocklist.json
 data/temp
