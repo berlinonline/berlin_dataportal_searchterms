@@ -145,6 +145,75 @@ People searched for `corona` (lower case), `Corona` (upper case), `covid` and po
 It would be valid to say that the total number of page impressions for all spellings of `corona` is `27+8=35`, and `27+8+2=37` for all Corona-related searches.
 However, the total number of visits for all spellings of `corona` is `20+6=26` _or less_ because some of these searches may have occured within the same visit.
 
+## How to Update the Search Data with a New Month
+
+Because adding a new month to the data involves manually editing the blocklist and allowlist, it is more complicated than just running a make target.
+Here is what needs to be done:
+
+### Extract the Unfiltered Data
+
+```
+make unfiltered
+```
+
+This will extract the search data from Webtrekk Analytics up until the last day of the previous month.
+The ouput is written to `data/temp/daten_berlin_de.searchterms.unfiltered.json`.
+
+### Extract a List of Searchterms for the Previous Month
+
+We need to manually go through all the new search terms, pick those that are problematic and then either add them to the blocklist or allowlist.
+To generate a simple list of terms (without hits, visits etc.) for a given month, do `make data/temp/terms_YYYY-MM.json`, e.g.:
+
+```
+make data/temp/terms_2020-06.json
+``` 
+
+### Select Problematic Terms
+
+Manually go through the list and extract all potentially problematic search terms.
+What I do is simply delete all _unproblematic_ ones, leaving me with the list of problematic ones.
+
+### Update blocklist and allowlist
+
+For each problematic term, decide if it really needs to be filtered out or if maybe it should be allowed after all.
+See [Filtering Personal Information](#filtering-personal-information).
+
+Each new addition to the blocklist simply needs to be added to the appropriate category (though the categories are just a way to structure the list for humans, they are not used otherwise).
+
+Each new addition to the allowlist looks like this:
+
+```json
+{
+  ...
+    "friedrich wilhelm förster": {
+        "variants": [
+            "friedrich wilhelm foerster",
+            "friedrich wilhelm förster"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Foerster" ,
+            "https://d-nb.info/gnd/118692038"
+        ]
+    }
+  ...
+```
+
+So, either add a new variant to an existing entry or create a new one.
+
+Remarks:
+
+- It's possible that an entry has only one `variant`.
+- The entry's key and the grouping of variants are irrelevant, just a way to structure the list for a human reader.
+- Also, the `reference` is technically not necessary, but helpful as a reminder why the decision was made to include a searchterm in the allowlist.
+
+### Create Final, Filtered Data
+
+Now that we have the updated block- and allowlist, we can filter the data and create the final data file, which goes into `data/target`.
+
+```
+make final
+```
+
 ## Logo
 
 - [search](https://fontawesome.com/icons/search) logo by [FontAwesome](https://fontawesome.com) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -162,4 +231,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-06-02
+Last changed: 2020-07-08
