@@ -61,7 +61,7 @@
             "Wehle, Gerhard Fürchtegott"
         ] ,
         "reference": [
-            "http://d-nb.info/gnd/135001706"
+            "https://d-nb.info/gnd/135001706"
         ]
     } ,
     "ba-fk.berlin.de": {
@@ -69,5 +69,16 @@
             "ba-fk.berlin.de",
             "ba-fk.verwalt-berlin.de"
         ]
-    }    
+    } ,
+    "friedrich wilhelm förster": {
+        "variants": [
+            "friedrich wilhelm foerster",
+            "friedrich wilhelm förster"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Foerster" ,
+            "https://d-nb.info/gnd/118692038"
+        ]
+    }
+    
 }
