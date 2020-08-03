@@ -79,6 +79,14 @@
             "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Foerster" ,
             "https://d-nb.info/gnd/118692038"
         ]
+    } ,
+    "Alexander Marcus": {
+        "variants": [
+            "Alexander Marcus",
+            "Felix Rennefeld"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Alexander_Marcus"
+        ]
     }
-    
 }

@@ -231,4 +231,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-07-08
+Last changed: 2020-08-03
