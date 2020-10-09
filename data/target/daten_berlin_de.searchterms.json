@@ -1,11 +1,4297 @@
 {
-  "timestamp": "2020-09-07T11:57:37+02:00",
+  "timestamp": "2020-10-09T15:16:55+02:00",
   "source": "Webtrekk",
   "stats": {
     "site_uri": "daten.berlin.de",
     "earliest": "2019-02",
-    "latest": "2020-08",
+    "latest": "2020-09",
     "months": {
+      "2020-09": {
+        "terms": {
+          "Friedrichshain-Kreuzberg": {
+            "impressions": 109,
+            "visits": 34,
+            "page_duration_avg": 28.41,
+            "exit_rate": 32.35
+          },
+          "vermessung AT ba-fk.berlin.de": {
+            "impressions": 63,
+            "visits": 12,
+            "page_duration_avg": 8.41,
+            "exit_rate": 25.0
+          },
+          "Mitte": {
+            "impressions": 52,
+            "visits": 2,
+            "page_duration_avg": 5.15,
+            "exit_rate": 0.0
+          },
+          "Lichtenberg": {
+            "impressions": 41,
+            "visits": 3,
+            "page_duration_avg": 13.95,
+            "exit_rate": 33.33
+          },
+          "LOR": {
+            "impressions": 35,
+            "visits": 6,
+            "page_duration_avg": 11.17,
+            "exit_rate": 16.67
+          },
+          "Neukölln": {
+            "impressions": 30,
+            "visits": 2,
+            "page_duration_avg": 37.93,
+            "exit_rate": 0.0
+          },
+          "Marzahn-Hellersdorf": {
+            "impressions": 28,
+            "visits": 1,
+            "page_duration_avg": 36.25,
+            "exit_rate": 0.0
+          },
+          "Steglitz-Zehlendorf": {
+            "impressions": 24,
+            "visits": 1,
+            "page_duration_avg": 13.79,
+            "exit_rate": 0.0
+          },
+          "Charlottenburg-Wilmersdorf": {
+            "impressions": 21,
+            "visits": 2,
+            "page_duration_avg": 7.38,
+            "exit_rate": 50.0
+          },
+          "Bezirk Mitte": {
+            "impressions": 21,
+            "visits": 1,
+            "page_duration_avg": 4.62,
+            "exit_rate": 100.0
+          },
+          "bezirke": {
+            "impressions": 20,
+            "visits": 6,
+            "page_duration_avg": 52.05,
+            "exit_rate": 33.33
+          },
+          "SHP": {
+            "impressions": 20,
+            "visits": 6,
+            "page_duration_avg": 38.75,
+            "exit_rate": 16.67
+          },
+          "Liste der häufigen Vornamen": {
+            "impressions": 20,
+            "visits": 2,
+            "page_duration_avg": 4.35,
+            "exit_rate": 50.0
+          },
+          "Treptow-Köpenick": {
+            "impressions": 19,
+            "visits": 2,
+            "page_duration_avg": 15.37,
+            "exit_rate": 0.0
+          },
+          "ALKIs": {
+            "impressions": 19,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Unfälle": {
+            "impressions": 18,
+            "visits": 1,
+            "page_duration_avg": 8.22,
+            "exit_rate": 0.0
+          },
+          "corona": {
+            "impressions": 17,
+            "visits": 9,
+            "page_duration_avg": 26.18,
+            "exit_rate": 11.11
+          },
+          "wms": {
+            "impressions": 17,
+            "visits": 6,
+            "page_duration_avg": 14.18,
+            "exit_rate": 0.0
+          },
+          "Tempelhof-Schöneberg": {
+            "impressions": 17,
+            "visits": 1,
+            "page_duration_avg": 12.29,
+            "exit_rate": 0.0
+          },
+          "straßen": {
+            "impressions": 16,
+            "visits": 2,
+            "page_duration_avg": 12.19,
+            "exit_rate": 100.0
+          },
+          "schulen": {
+            "impressions": 16,
+            "visits": 5,
+            "page_duration_avg": 16.88,
+            "exit_rate": 20.0
+          },
+          "shp": {
+            "impressions": 16,
+            "visits": 5,
+            "page_duration_avg": 91.0,
+            "exit_rate": 0.0
+          },
+          "Bevölkerung": {
+            "impressions": 15,
+            "visits": 4,
+            "page_duration_avg": 15.87,
+            "exit_rate": 50.0
+          },
+          "Bevölkerung berlin": {
+            "impressions": 15,
+            "visits": 1,
+            "page_duration_avg": 5.8,
+            "exit_rate": 0.0
+          },
+          "Bodenrichtwerte": {
+            "impressions": 14,
+            "visits": 1,
+            "page_duration_avg": 5.29,
+            "exit_rate": 100.0
+          },
+          "Spandau": {
+            "impressions": 14,
+            "visits": 2,
+            "page_duration_avg": 8.64,
+            "exit_rate": 0.0
+          },
+          "ortsteil": {
+            "impressions": 14,
+            "visits": 3,
+            "page_duration_avg": 6.36,
+            "exit_rate": 0.0
+          },
+          "einwohner": {
+            "impressions": 13,
+            "visits": 4,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "mahlsdorf": {
+            "impressions": 13,
+            "visits": 4,
+            "page_duration_avg": 15.92,
+            "exit_rate": 0.0
+          },
+          "Umwelt": {
+            "impressions": 13,
+            "visits": 1,
+            "page_duration_avg": 6.92,
+            "exit_rate": 0.0
+          },
+          "Wasser": {
+            "impressions": 12,
+            "visits": 4,
+            "page_duration_avg": 22.5,
+            "exit_rate": 50.0
+          },
+          "Emissionen": {
+            "impressions": 12,
+            "visits": 2,
+            "page_duration_avg": 31.17,
+            "exit_rate": 0.0
+          },
+          "arbeitslosigkeit": {
+            "impressions": 12,
+            "visits": 4,
+            "page_duration_avg": 21.0,
+            "exit_rate": 0.0
+          },
+          "amt für statistik": {
+            "impressions": 12,
+            "visits": 1,
+            "page_duration_avg": 12.58,
+            "exit_rate": 0.0
+          },
+          "lor": {
+            "impressions": 11,
+            "visits": 2,
+            "page_duration_avg": 11.18,
+            "exit_rate": 50.0
+          },
+          "markt": {
+            "impressions": 11,
+            "visits": 2,
+            "page_duration_avg": 3.36,
+            "exit_rate": 0.0
+          },
+          "einkommen": {
+            "impressions": 10,
+            "visits": 3,
+            "page_duration_avg": 19.8,
+            "exit_rate": 33.33
+          },
+          "migrationshintergrund": {
+            "impressions": 10,
+            "visits": 5,
+            "page_duration_avg": 10.3,
+            "exit_rate": 20.0
+          },
+          "Amt für statistik": {
+            "impressions": 10,
+            "visits": 2,
+            "page_duration_avg": 6.8,
+            "exit_rate": 50.0
+          },
+          "Bezirksgrenzen": {
+            "impressions": 10,
+            "visits": 2,
+            "page_duration_avg": 8.7,
+            "exit_rate": 0.0
+          },
+          "shape": {
+            "impressions": 10,
+            "visits": 4,
+            "page_duration_avg": 5.8,
+            "exit_rate": 0.0
+          },
+          "Corona": {
+            "impressions": 9,
+            "visits": 5,
+            "page_duration_avg": 43.56,
+            "exit_rate": 40.0
+          },
+          "kml": {
+            "impressions": 9,
+            "visits": 3,
+            "page_duration_avg": 9.89,
+            "exit_rate": 33.33
+          },
+          "shapefile": {
+            "impressions": 9,
+            "visits": 4,
+            "page_duration_avg": 9.89,
+            "exit_rate": 0.0
+          },
+          "bau": {
+            "impressions": 9,
+            "visits": 2,
+            "page_duration_avg": 9.56,
+            "exit_rate": 0.0
+          },
+          "block": {
+            "impressions": 9,
+            "visits": 2,
+            "page_duration_avg": 6.67,
+            "exit_rate": 0.0
+          },
+          "Bezirke Geodaten": {
+            "impressions": 9,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "bundestagswahl": {
+            "impressions": 8,
+            "visits": 3,
+            "page_duration_avg": 48.13,
+            "exit_rate": 33.33
+          },
+          "csv": {
+            "impressions": 8,
+            "visits": 3,
+            "page_duration_avg": 256.0,
+            "exit_rate": 0.0
+          },
+          "solaranlagen": {
+            "impressions": 8,
+            "visits": 1,
+            "page_duration_avg": 33.5,
+            "exit_rate": 0.0
+          },
+          "Alkis Berlin Gebäude": {
+            "impressions": 8,
+            "visits": 1,
+            "page_duration_avg": 7.63,
+            "exit_rate": 0.0
+          },
+          "corona verteilung": {
+            "impressions": 7,
+            "visits": 2,
+            "page_duration_avg": 11.86,
+            "exit_rate": 100.0
+          },
+          "fahrrad": {
+            "impressions": 7,
+            "visits": 3,
+            "page_duration_avg": 9.29,
+            "exit_rate": 33.33
+          },
+          "bus": {
+            "impressions": 7,
+            "visits": 3,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "Reinickendorf": {
+            "impressions": 7,
+            "visits": 3,
+            "page_duration_avg": 13.71,
+            "exit_rate": 0.0
+          },
+          "k 5": {
+            "impressions": 7,
+            "visits": 1,
+            "page_duration_avg": 10.86,
+            "exit_rate": 0.0
+          },
+          "karte": {
+            "impressions": 7,
+            "visits": 1,
+            "page_duration_avg": 9.57,
+            "exit_rate": 0.0
+          },
+          "wahlen": {
+            "impressions": 7,
+            "visits": 2,
+            "page_duration_avg": 5.71,
+            "exit_rate": 0.0
+          },
+          "verkehr": {
+            "impressions": 6,
+            "visits": 4,
+            "page_duration_avg": 50.67,
+            "exit_rate": 25.0
+          },
+          "internet": {
+            "impressions": 6,
+            "visits": 2,
+            "page_duration_avg": 19.33,
+            "exit_rate": 50.0
+          },
+          "energieverbrauch": {
+            "impressions": 6,
+            "visits": 3,
+            "page_duration_avg": 16.5,
+            "exit_rate": 33.33
+          },
+          "dgm": {
+            "impressions": 6,
+            "visits": 4,
+            "page_duration_avg": 8.33,
+            "exit_rate": 25.0
+          },
+          "train": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 16.5,
+            "exit_rate": 0.0
+          },
+          "Straßen": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 8.33,
+            "exit_rate": 0.0
+          },
+          "Landschaftsprogramm": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 8.33,
+            "exit_rate": 0.0
+          },
+          "Pankow": {
+            "impressions": 6,
+            "visits": 2,
+            "page_duration_avg": 6.67,
+            "exit_rate": 0.0
+          },
+          "ZIP:SHP": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "Grundschuleinzugsbereiche": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 5.33,
+            "exit_rate": 0.0
+          },
+          "bildung": {
+            "impressions": 6,
+            "visits": 2,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Kurt-Schumacher-Platz": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 4.67,
+            "exit_rate": 0.0
+          },
+          "k5 berlin": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 3.33,
+            "exit_rate": 0.0
+          },
+          "höhenfestpunkte": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 2.83,
+            "exit_rate": 0.0
+          },
+          "bodenrichtwerte zum 01.01.2020": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 2.17,
+            "exit_rate": 0.0
+          },
+          "armut": {
+            "impressions": 6,
+            "visits": 1,
+            "page_duration_avg": 2.17,
+            "exit_rate": 0.0
+          },
+          "gewässer": {
+            "impressions": 5,
+            "visits": 3,
+            "page_duration_avg": 74.0,
+            "exit_rate": 100.0
+          },
+          "Bildung": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 27.8,
+            "exit_rate": 100.0
+          },
+          "BVG": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 23.8,
+            "exit_rate": 50.0
+          },
+          "CO2": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 14.2,
+            "exit_rate": 100.0
+          },
+          "Gebäude": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 12.0,
+            "exit_rate": 50.0
+          },
+          "stromnetz": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 9.4,
+            "exit_rate": 100.0
+          },
+          "senatsvorlage": {
+            "impressions": 5,
+            "visits": 3,
+            "page_duration_avg": 313.0,
+            "exit_rate": 0.0
+          },
+          "verkehrszeichen": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 26.0,
+            "exit_rate": 0.0
+          },
+          "RBS": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 22.4,
+            "exit_rate": 0.0
+          },
+          "Bevölkerungsentwicklung": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 9.2,
+            "exit_rate": 0.0
+          },
+          "Einschulungsbereiche": {
+            "impressions": 5,
+            "visits": 3,
+            "page_duration_avg": 8.8,
+            "exit_rate": 0.0
+          },
+          "Religion": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 8.8,
+            "exit_rate": 0.0
+          },
+          "ampeln": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 8.8,
+            "exit_rate": 0.0
+          },
+          "energie": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 5.2,
+            "exit_rate": 0.0
+          },
+          "jugendarbeitslosigkeit": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 5.2,
+            "exit_rate": 0.0
+          },
+          "Bevölkerung berlin 2019": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 4.6,
+            "exit_rate": 0.0
+          },
+          "Wochenmarkt": {
+            "impressions": 5,
+            "visits": 3,
+            "page_duration_avg": 4.4,
+            "exit_rate": 0.0
+          },
+          "hellersdorf": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 4.2,
+            "exit_rate": 0.0
+          },
+          "vbb": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 3.4,
+            "exit_rate": 0.0
+          },
+          "miete": {
+            "impressions": 5,
+            "visits": 2,
+            "page_duration_avg": 2.8,
+            "exit_rate": 0.0
+          },
+          "reinickendorf": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 2.8,
+            "exit_rate": 0.0
+          },
+          "gtfs": {
+            "impressions": 5,
+            "visits": 3,
+            "page_duration_avg": 2.4,
+            "exit_rate": 0.0
+          },
+          "Stadtplan": {
+            "impressions": 5,
+            "visits": 1,
+            "page_duration_avg": 1.8,
+            "exit_rate": 0.0
+          },
+          "Xml": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 27.75,
+            "exit_rate": 100.0
+          },
+          "bvg": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 27.5,
+            "exit_rate": 50.0
+          },
+          "Polizei": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 12.25,
+            "exit_rate": 100.0
+          },
+          "altglas": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 10.0,
+            "exit_rate": 50.0
+          },
+          "radverkehr": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 100.0
+          },
+          "Einkommen": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 9.75,
+            "exit_rate": 50.0
+          },
+          "smart city": {
+            "impressions": 4,
+            "visits": 3,
+            "page_duration_avg": 351.5,
+            "exit_rate": 0.0
+          },
+          "vegetation": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 88.25,
+            "exit_rate": 0.0
+          },
+          "Alter": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 48.0,
+            "exit_rate": 0.0
+          },
+          "Straßenbefahrung": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 24.5,
+            "exit_rate": 0.0
+          },
+          "buslinien": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 13.5,
+            "exit_rate": 0.0
+          },
+          "alkis": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 13.25,
+            "exit_rate": 0.0
+          },
+          "einwohnerregister": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 11.5,
+            "exit_rate": 0.0
+          },
+          "ESB": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 7.25,
+            "exit_rate": 0.0
+          },
+          "spandau": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 6.25,
+            "exit_rate": 0.0
+          },
+          "Leitbild Diversity": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 6.25,
+            "exit_rate": 0.0
+          },
+          "bahn": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 4.5,
+            "exit_rate": 0.0
+          },
+          "ortsteile": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 4.25,
+            "exit_rate": 0.0
+          },
+          "emissionen": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "stadtgrenze": {
+            "impressions": 4,
+            "visits": 2,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "statistische bezirke": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "grundwasser": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "einwohnerstatistik": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 3.25,
+            "exit_rate": 0.0
+          },
+          "Radwege": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 2.75,
+            "exit_rate": 0.0
+          },
+          "biku": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "COVID-19 Fälle im Land Berlin, Verteilung nach Altersgruppen": {
+            "impressions": 4,
+            "visits": 1,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "Norderney": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 34.33,
+            "exit_rate": 100.0
+          },
+          "Energieverbrauchsübersicht": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 60.33,
+            "exit_rate": 50.0
+          },
+          "Lärm": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 25.33,
+            "exit_rate": 100.0
+          },
+          "Grundstück": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 17.33,
+            "exit_rate": 100.0
+          },
+          "grenzen": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 17.33,
+            "exit_rate": 100.0
+          },
+          "park": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 14.0,
+            "exit_rate": 50.0
+          },
+          "hydranten": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 12.33,
+            "exit_rate": 100.0
+          },
+          "Maßnahmen zur Verbesserung des Mieterschutzes und zur Vermeidung von Wohnungsverlusten": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 174.67,
+            "exit_rate": 0.0
+          },
+          "gruendach": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 131.33,
+            "exit_rate": 0.0
+          },
+          "projektion": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 55.67,
+            "exit_rate": 0.0
+          },
+          "Bedarfsgemeinschaften": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 30.33,
+            "exit_rate": 0.0
+          },
+          "u-bahn": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 24.67,
+            "exit_rate": 0.0
+          },
+          "jugend": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 23.33,
+            "exit_rate": 0.0
+          },
+          "Flüchtlinge": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 20.0,
+            "exit_rate": 0.0
+          },
+          "ladesäulen": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 17.33,
+            "exit_rate": 0.0
+          },
+          "lebensraumtypen": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 15.67,
+            "exit_rate": 0.0
+          },
+          "Api": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 14.33,
+            "exit_rate": 0.0
+          },
+          "GTFS": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 11.67,
+            "exit_rate": 0.0
+          },
+          "Luftbild": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "ökokonto": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Vornamen": {
+            "impressions": 3,
+            "visits": 3,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "Denkmal": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 9.33,
+            "exit_rate": 0.0
+          },
+          "kleingarten": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 9.33,
+            "exit_rate": 0.0
+          },
+          "polizei": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Xml sprache": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "gesamte bevölkerung": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "gesundheit": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 8.33,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosigkeit LOR": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Fläche Berlin Stadt": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 7.67,
+            "exit_rate": 0.0
+          },
+          "geojson": {
+            "impressions": 3,
+            "visits": 2,
+            "page_duration_avg": 7.33,
+            "exit_rate": 0.0
+          },
+          "Alkis": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 6.67,
+            "exit_rate": 0.0
+          },
+          "treptow-köpenick": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "Hauptstadtzulage": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "covid stadtbezirke": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "sozialstruktur": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "bezirksgrenzen": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "arbeitslose": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.67,
+            "exit_rate": 0.0
+          },
+          "grundflächenzahl": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.33,
+            "exit_rate": 0.0
+          },
+          "etrs": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.33,
+            "exit_rate": 0.0
+          },
+          "Covid 19": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 5.33,
+            "exit_rate": 0.0
+          },
+          "Straßenverzeichnis": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.33,
+            "exit_rate": 0.0
+          },
+          "einwohner alter": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.33,
+            "exit_rate": 0.0
+          },
+          "Grünfläche": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.33,
+            "exit_rate": 0.0
+          },
+          "parken": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.33,
+            "exit_rate": 0.0
+          },
+          "Fahrrad Unfälle": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Ballungsraumzulage": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Ortsteile": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "2019": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "flur": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.67,
+            "exit_rate": 0.0
+          },
+          "schiffsverkehr": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.67,
+            "exit_rate": 0.0
+          },
+          "Block": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.33,
+            "exit_rate": 0.0
+          },
+          "religiös": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.33,
+            "exit_rate": 0.0
+          },
+          "Papiercontainer": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.33,
+            "exit_rate": 0.0
+          },
+          "nach bezirksregion": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.33,
+            "exit_rate": 0.0
+          },
+          "Naturkatastrophe": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Berlin Regions": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Lärmbelastung": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "pflanzenarten": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "environment": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.67,
+            "exit_rate": 0.0
+          },
+          "BauNVO": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.33,
+            "exit_rate": 0.0
+          },
+          "suchbegriffe": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.33,
+            "exit_rate": 0.0
+          },
+          "Einschulungsbereich": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.33,
+            "exit_rate": 0.0
+          },
+          "wahkreise": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "Spandau KArte": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "schule": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "abgeordnetenhauswahl": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "Xml programmierung": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "Kita": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "Straßenbefahrung Material": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.67,
+            "exit_rate": 0.0
+          },
+          "Hackathon": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.67,
+            "exit_rate": 0.0
+          },
+          "dtk": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.67,
+            "exit_rate": 0.0
+          },
+          "Infografiken": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "einschul": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "einwohnerdichte 2016": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "hackathon": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "osm": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "Markt": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "trödelmärkte": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.33,
+            "exit_rate": 0.0
+          },
+          "1930er Jahre": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "Personalmanagementbericht": {
+            "impressions": 3,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "Fahrrad pro Tag": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "einschulungbereiche": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 336.0,
+            "exit_rate": 100.0
+          },
+          "Carsharing": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 52.5,
+            "exit_rate": 50.0
+          },
+          "covid in den stadtbezirken": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 100.0
+          },
+          "population": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 18.5,
+            "exit_rate": 50.0
+          },
+          "müll": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 18.5,
+            "exit_rate": 50.0
+          },
+          "gestorbene": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 18.5,
+            "exit_rate": 100.0
+          },
+          "Sperrmüll": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 100.0
+          },
+          "customer": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 17.5,
+            "exit_rate": 100.0
+          },
+          "gebaeude": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 17.5,
+            "exit_rate": 100.0
+          },
+          "Radfahrer Anzahl": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 100.0
+          },
+          "bebauungspläne": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 15.0,
+            "exit_rate": 50.0
+          },
+          "Kindertagesstätten": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 520.0,
+            "exit_rate": 0.0
+          },
+          "reinowzeile": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 480.5,
+            "exit_rate": 0.0
+          },
+          "flughafen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 307.5,
+            "exit_rate": 0.0
+          },
+          "physiotherapiepeaxis uhlandstrasse": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 294.5,
+            "exit_rate": 0.0
+          },
+          "arzt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 266.0,
+            "exit_rate": 0.0
+          },
+          "h Bezirke": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 244.5,
+            "exit_rate": 0.0
+          },
+          "footprint": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 92.0,
+            "exit_rate": 0.0
+          },
+          "wohnungsleerstand": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 80.5,
+            "exit_rate": 0.0
+          },
+          "supermarkt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 78.5,
+            "exit_rate": 0.0
+          },
+          "BerlinPass": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 55.0,
+            "exit_rate": 0.0
+          },
+          "turkiye": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 38.5,
+            "exit_rate": 0.0
+          },
+          "oeffentliche verkehr": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 37.5,
+            "exit_rate": 0.0
+          },
+          "sachdaten zum bodenrichtwert": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 28.5,
+            "exit_rate": 0.0
+          },
+          "Nutzungsarten": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 25.0,
+            "exit_rate": 0.0
+          },
+          "wfs": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 24.5,
+            "exit_rate": 0.0
+          },
+          "dlm": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 24.5,
+            "exit_rate": 0.0
+          },
+          "steuern": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 21.0,
+            "exit_rate": 0.0
+          },
+          "karte 1:5000": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 20.0,
+            "exit_rate": 0.0
+          },
+          "Senioren-Freizeitgestaltung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 19.0,
+            "exit_rate": 0.0
+          },
+          "bezugssystem": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "steglitz-zehlendorf": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 16.5,
+            "exit_rate": 0.0
+          },
+          "Bebauung Grundstück": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 16.5,
+            "exit_rate": 0.0
+          },
+          "strassenreinigung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 16.5,
+            "exit_rate": 0.0
+          },
+          "Vermessung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 15.5,
+            "exit_rate": 0.0
+          },
+          "Vorlage zur Kenntnisnahme": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "gemeindegrenzen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Schule": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Sportanlagen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "BVG mns": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Bus": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 13.5,
+            "exit_rate": 0.0
+          },
+          "PLZ Schweiz": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Stromnetz": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Sozial geld": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Immobilienpreise": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "PLZ OR Schweiz": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 11.5,
+            "exit_rate": 0.0
+          },
+          "fläche": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 11.5,
+            "exit_rate": 0.0
+          },
+          "alkis gebäude": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 10.5,
+            "exit_rate": 0.0
+          },
+          "plz": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 10.5,
+            "exit_rate": 0.0
+          },
+          "Postleitzahlen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "bezirkshaushaltsplan": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "kiez": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.5,
+            "exit_rate": 0.0
+          },
+          "festpunkt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.5,
+            "exit_rate": 0.0
+          },
+          "karstadt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.5,
+            "exit_rate": 0.0
+          },
+          "Flurstück": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.5,
+            "exit_rate": 0.0
+          },
+          "SeniorenFreizeitgestaltung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.5,
+            "exit_rate": 0.0
+          },
+          "löschwasser": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Bebauungsplan": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Europäische Union": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Verein": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Feuerwehr": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 7.5,
+            "exit_rate": 0.0
+          },
+          "wasser": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 7.5,
+            "exit_rate": 0.0
+          },
+          "Fallzahlen bezirke": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "geoportal": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "gis": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "vermessung karstadt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "bildungsabschluss": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "strom": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "Seantssitzung 8.11.2016": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "Enteignen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "geländemodell": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "milieus": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.5,
+            "exit_rate": 0.0
+          },
+          "was tun bei sexueller gewalt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "sterbefälle brandenburg": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "engergy consumption": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "straßenverzeichnis": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "gewaesser": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "wetter": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "PLR": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.5,
+            "exit_rate": 0.0
+          },
+          "RBS_Bezirke": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.5,
+            "exit_rate": 0.0
+          },
+          "Gebäudealter": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.5,
+            "exit_rate": 0.0
+          },
+          "konsolidierung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.5,
+            "exit_rate": 0.0
+          },
+          "Open Data": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.5,
+            "exit_rate": 0.0
+          },
+          "Erholungsgebiete Pankow": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "hauptstadtzulage": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "hochbau abteilung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "income": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "berlin grünau alkis": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "pkw": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "json": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.5,
+            "exit_rate": 0.0
+          },
+          "kriminalität": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.5,
+            "exit_rate": 0.0
+          },
+          "Internationaler Autofreier Tag": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "vermessung karstadt hermannplatz": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "ortsteil mahlsdorf": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Gartennutzung": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "nachhaltigkeit hotellerie": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "lichtzeichen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosenquote": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "bildungsabschluss berzirke": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "Bildungsstand": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "einwohner ortsteil": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "einwohnerdichte 2018": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.5,
+            "exit_rate": 0.0
+          },
+          "Vbb": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Freizeit- und Erholungsflächen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "gebäudedaten berlin": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "covid": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "glascontainer": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "vélo": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "Ambulante Pflege": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "ordnungsamt": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "hochbau": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "migrants": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.5,
+            "exit_rate": 0.0
+          },
+          "ZIP-SHP": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "stadtbezrike": {
+            "impressions": 2,
+            "visits": 2,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "Berlin": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "Hydranten": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "Kriminalität": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "RBS-LOR": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.5,
+            "exit_rate": 0.0
+          },
+          "regionalbahnlinie": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "verbindungspunkte": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "ladestationen": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "LoD": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "ÖPNV": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 1.0,
+            "exit_rate": 0.0
+          },
+          "12279 Berlin": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 0.5,
+            "exit_rate": 0.0
+          },
+          "werbesäule": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 0.5,
+            "exit_rate": 0.0
+          },
+          "MFR": {
+            "impressions": 2,
+            "visits": 1,
+            "page_duration_avg": 0.5,
+            "exit_rate": 0.0
+          },
+          "staaken": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 279.0,
+            "exit_rate": 100.0
+          },
+          "Öffentliche Toiletten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Wohnungen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "ALKIS": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Nutzungsarten W, M1, M2, G, GP": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Arbeitslosengeld": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Hydrologie": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "energieatlas": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "income Berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "schrägluftbilder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "senatsvorlage unterrichtung hauptausschuss": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "point cloud": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "graffiti": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "blankenfelde berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "bodenricht": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "DEM": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "würzburg": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "transport": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Luftbild 1989": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Friedrichshain-Kreuzberg corona": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Tourismus": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "straßenbefahrung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "zier": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "scheidung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Fußabdruck": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "apotheke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "boris": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "wifi": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Bodenkarte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Richtwerte Berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "frau in IT": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Kommission 131": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Grünflächen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Friedrichshain-Kreuzberg STatistik": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "höhendaten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "1945": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "mitte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "fläche plz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "a)": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "enerdan gmbh": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Nutzungsbedingungen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "cad plan of sony center berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "1953": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Regierungsbezirk": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Toulouse": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "namen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "sanierungsgebiete neukölln": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Taxistände": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Verwarnung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "bundesfernstraße liste": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "kategorisierung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "reisewarnung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Gmeyner": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "radfahrer": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "football": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Gentrifizierung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "Freibad": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "city lights": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "kritis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 30.0,
+            "exit_rate": 100.0
+          },
+          "luftbilder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 1697.0,
+            "exit_rate": 0.0
+          },
+          "Schutzzonen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 1621.0,
+            "exit_rate": 0.0
+          },
+          "postleitzahl": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 1429.0,
+            "exit_rate": 0.0
+          },
+          "Baunutzungsverordnung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 859.0,
+            "exit_rate": 0.0
+          },
+          "Kläranlagen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 808.0,
+            "exit_rate": 0.0
+          },
+          "polizeimeldung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 759.0,
+            "exit_rate": 0.0
+          },
+          "slow tourism": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 694.0,
+            "exit_rate": 0.0
+          },
+          "Bebauung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 645.0,
+            "exit_rate": 0.0
+          },
+          "sgb ii": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 608.0,
+            "exit_rate": 0.0
+          },
+          "population age": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 563.0,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosenanteil LOR 2019": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 310.0,
+            "exit_rate": 0.0
+          },
+          "toula": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 307.0,
+            "exit_rate": 0.0
+          },
+          "smart city ernst": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 299.0,
+            "exit_rate": 0.0
+          },
+          "Notaufnahme": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 282.0,
+            "exit_rate": 0.0
+          },
+          "GRZ": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 281.0,
+            "exit_rate": 0.0
+          },
+          "CO": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 260.0,
+            "exit_rate": 0.0
+          },
+          "Statusindes LOR 2019": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 251.0,
+            "exit_rate": 0.0
+          },
+          "avis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 243.0,
+            "exit_rate": 0.0
+          },
+          "verbrechen berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 230.0,
+            "exit_rate": 0.0
+          },
+          "CO2-Emmissionen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 220.0,
+            "exit_rate": 0.0
+          },
+          "bar": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 215.0,
+            "exit_rate": 0.0
+          },
+          "wall": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 213.0,
+            "exit_rate": 0.0
+          },
+          "altersdurchschnitt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 168.0,
+            "exit_rate": 0.0
+          },
+          "sanierungsgebiete": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 144.0,
+            "exit_rate": 0.0
+          },
+          "Alt-Hohenschönhausen Süd": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 144.0,
+            "exit_rate": 0.0
+          },
+          "atelierprogramm": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 114.0,
+            "exit_rate": 0.0
+          },
+          "pickle": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 113.0,
+            "exit_rate": 0.0
+          },
+          "Investitionsplanung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 102.0,
+            "exit_rate": 0.0
+          },
+          "Senioren": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 98.0,
+            "exit_rate": 0.0
+          },
+          "Straße": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 92.0,
+            "exit_rate": 0.0
+          },
+          "Unsaniert": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 90.0,
+            "exit_rate": 0.0
+          },
+          "Hochschulabsolventen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 90.0,
+            "exit_rate": 0.0
+          },
+          "Bildungsniveau": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 83.0,
+            "exit_rate": 0.0
+          },
+          "topographie": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 81.0,
+            "exit_rate": 0.0
+          },
+          "Baumbestand": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 62.0,
+            "exit_rate": 0.0
+          },
+          "migranten lOR": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 62.0,
+            "exit_rate": 0.0
+          },
+          "Bußgelder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 57.0,
+            "exit_rate": 0.0
+          },
+          "stadtteile": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 57.0,
+            "exit_rate": 0.0
+          },
+          "werbeuhr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 57.0,
+            "exit_rate": 0.0
+          },
+          "Bezirke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 56.0,
+            "exit_rate": 0.0
+          },
+          "physiotherapie": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 56.0,
+            "exit_rate": 0.0
+          },
+          "Projekt Zukunft": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 54.0,
+            "exit_rate": 0.0
+          },
+          "Erhaltungsgebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 53.0,
+            "exit_rate": 0.0
+          },
+          "Nachtleben": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 52.0,
+            "exit_rate": 0.0
+          },
+          "öpnv": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 47.0,
+            "exit_rate": 0.0
+          },
+          "Hochwassergefahrenkarte - Gewässer": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 46.0,
+            "exit_rate": 0.0
+          },
+          "Marienfelde": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 45.0,
+            "exit_rate": 0.0
+          },
+          "brunnen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 44.0,
+            "exit_rate": 0.0
+          },
+          "ruhenden Verkehr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 44.0,
+            "exit_rate": 0.0
+          },
+          "wohnraum": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 42.0,
+            "exit_rate": 0.0
+          },
+          "alter": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 40.0,
+            "exit_rate": 0.0
+          },
+          "Wohngebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 39.0,
+            "exit_rate": 0.0
+          },
+          "Sozial": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 34.0,
+            "exit_rate": 0.0
+          },
+          "umwandlung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 34.0,
+            "exit_rate": 0.0
+          },
+          "Verbraucherpreisindex": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 34.0,
+            "exit_rate": 0.0
+          },
+          "emergency": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 33.0,
+            "exit_rate": 0.0
+          },
+          "Bwb": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 33.0,
+            "exit_rate": 0.0
+          },
+          "pressemitteilung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 33.0,
+            "exit_rate": 0.0
+          },
+          "sport": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 31.0,
+            "exit_rate": 0.0
+          },
+          "Dienstleistungszentrum": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 31.0,
+            "exit_rate": 0.0
+          },
+          "Sprachstand Kita": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 29.0,
+            "exit_rate": 0.0
+          },
+          "[en-AU] Emergency Rooms [en-US] Emergency Rooms [es-ES] Emergencias Médicas [es-US] Emergencias Médicas [fr-CA] Urgences [fr-FR] Urgences [it-IT] Pronto Soccorso [ja-JP] 救急診療 [pt-BR] Pronto Socorro Add a new trigger phrase ...": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 29.0,
+            "exit_rate": 0.0
+          },
+          "Fahrgast": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 29.0,
+            "exit_rate": 0.0
+          },
+          "Neubauten Berlin Mitte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 29.0,
+            "exit_rate": 0.0
+          },
+          "Radfahrer": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 28.0,
+            "exit_rate": 0.0
+          },
+          "Fahrgastaufkommen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 28.0,
+            "exit_rate": 0.0
+          },
+          "Fahrrad": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 27.0,
+            "exit_rate": 0.0
+          },
+          "Homeoffice": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 27.0,
+            "exit_rate": 0.0
+          },
+          "Strom": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 26.0,
+            "exit_rate": 0.0
+          },
+          "Seltene Vornamen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 25.0,
+            "exit_rate": 0.0
+          },
+          "Mischgebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 25.0,
+            "exit_rate": 0.0
+          },
+          "solaramlagen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 25.0,
+            "exit_rate": 0.0
+          },
+          "Risikogruppe": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 24.0,
+            "exit_rate": 0.0
+          },
+          "Gesundheitsdienstleistungen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 24.0,
+            "exit_rate": 0.0
+          },
+          "koordinaten berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 24.0,
+            "exit_rate": 0.0
+          },
+          "Mieterschutz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 23.0,
+            "exit_rate": 0.0
+          },
+          "Corona Fallzahlen im September": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 23.0,
+            "exit_rate": 0.0
+          },
+          "Strassenreinigung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 0.0
+          },
+          "Wahlkreis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosenanteil": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 0.0
+          },
+          "Einwohnerinnen und Einwohner in Berlin in LOR-Planungsräumen am 31.12.2019": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 0.0
+          },
+          "Nordbahnhof": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 22.0,
+            "exit_rate": 0.0
+          },
+          "Friedrichshain-Kreuzberg fallzahlen corona": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 21.0,
+            "exit_rate": 0.0
+          },
+          "karte steglitz-zehlendorf": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 21.0,
+            "exit_rate": 0.0
+          },
+          "Geldbuße": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 21.0,
+            "exit_rate": 0.0
+          },
+          "Abwasser": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 19.0,
+            "exit_rate": 0.0
+          },
+          "Heimarbeit": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 19.0,
+            "exit_rate": 0.0
+          },
+          "COVID-19": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 19.0,
+            "exit_rate": 0.0
+          },
+          "Einwohner wilmersdorf": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 19.0,
+            "exit_rate": 0.0
+          },
+          "schilder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "Test": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "smart city berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "Parkverstoß": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 18.0,
+            "exit_rate": 0.0
+          },
+          "Drehstrom": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Fluchlinge": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "s.bahn": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Corona ampel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Einwohner berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "=!)": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Gärten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Unsanierte Häuser": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "ruhender Verkehr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "Märkte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 17.0,
+            "exit_rate": 0.0
+          },
+          "abfall": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "gebäude": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "einwohnerinnen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "Covid 19 test": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "marienfelde": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "bmi": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "Vermessungskarte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "kontaktbere": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "verwaltung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "immobilienpreise": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "bezirk": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "marienfelder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 16.0,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosenanteil LOR": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Konfession": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Bevölkerungsprognose": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Covid": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Bildungseinrichtungen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "Krankenhäuser": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 15.0,
+            "exit_rate": 0.0
+          },
+          "stadtteil": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Bezirke Goedaten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Flüchtlingszahlen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "BVG maske": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "senatsvorlage ausschreibung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "radverkher": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Friedrichshain-Kreuzberg oberbaum-city": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "arzt notdienst": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "s-bahn ring": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "coronaampel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Erholungsgebiete": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "hilfen zur erziehung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Berliner Vornamen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 14.0,
+            "exit_rate": 0.0
+          },
+          "Lebenserwartung nach Stadtteil": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Parkverstöße": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Übersichtsplan": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Passenger": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "liegenschaftskarte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "koordinatensystem": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Milieuschutz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "transferleistungsbezieher": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Türkei": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Sars": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Einwohner Wilmersdorf": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 13.0,
+            "exit_rate": 0.0
+          },
+          "Maskenpflicht": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "kirche": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "corona stadtbezirke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "Klimawandel Naturkatastrophe": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "Straßenzustand": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "Bodenschätzung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "FFH-Gebiete in Treptow-Köpenick": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "Einschulbezirke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 12.0,
+            "exit_rate": 0.0
+          },
+          "oeffentlicheverkehr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Ordnungsamt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "17. Juni": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Spielstraße": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Gärten in Pankow": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "soziales Erhaltungsgebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Friedrichshain-Kreuzberg Einwohner": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "unter den linden": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Öffentliche Verkehrsmittel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Kreise": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "friedhof": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "familiennamen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Ökotourismus": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosigkeit 2018": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Luftbilder 1989": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Bezirke ZIP-SHP": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Ampel corona": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "alg": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "open street map": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "Grünflächwn": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "smart": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "ringbahn": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 11.0,
+            "exit_rate": 0.0
+          },
+          "ITDZ": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "einwohnerdichte": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "Arbeitslosigkeit": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "Brunnen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "verwaltungsbezirk": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "bip": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "stadgrenze": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "nas alkis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "Container": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "k5": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "LOD1": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "Bevölerung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "immobilienpreise berlin quartale": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "energiebedarf": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "punktwolke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "s-bahn": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "wgs84": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "rollerverkehr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 10.0,
+            "exit_rate": 0.0
+          },
+          "roller": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "e-roller": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Umringe": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "hotel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "CO2-Emmission": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "einschulungsbereiche": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "fussball": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "jahresabschluss": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "gesund": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "e scooter": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "2015": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "crime": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "EWR200912E_Matrix": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "bezirksgrenze": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "arbeitslos": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Mittlere Lebenserwartung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Investitionsprogramm": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Höhenfestpunkt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Wohngebiet-Mischgebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "senatsvorlage dienstleistung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "Vermessungsplan": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 9.0,
+            "exit_rate": 0.0
+          },
+          "geologiedaten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "wohnungs": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "RBS-PLR": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Verkehrsbedingt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Senatssitzung 8.11.2016": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "transferleistung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "WMS": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Taxen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "inspire": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "siedlungsstruktur berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Einschulungsgebiete": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "KI": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "eheschließung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "5171": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "sinus": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "polygon": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "azrt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Schulen verzeichnis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Taxis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Kindertagesstääten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "Serverbetrieb": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 8.0,
+            "exit_rate": 0.0
+          },
+          "einwohner alter bezirke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "hilfen OR erziehung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "Tempelhof-Schoeneberg": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "kaiserallee": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "rosenthaler vorstadt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "civic technology": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "smart cities ernst": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "Gastrono": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "kleingärten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "Rettungsbeihilfe Corona": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "ökokonto Ökokontoprojekt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "soziales erhaltungsgebiet": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "energieverbrauch büro": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "shapefile ortsteile": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "Corona Fallzahlen im September coron": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "Geo": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "grnezen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 7.0,
+            "exit_rate": 0.0
+          },
+          "smart cities": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "Freibäder": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "berlin wall": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "europawahl": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "01637638083": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "verwaltungsbezirkebezirk": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "licence for diplomat": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "einwohnerstatistik treptow-köpenick": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "Löschwasserentnahmestellen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "bundestagswahlen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "Nachtclub": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "bevölkerung ortsteil": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "container": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "ampel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "einkommensverteilung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 6.0,
+            "exit_rate": 0.0
+          },
+          "Künstliche Intelligenz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "urbanstr": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "hotellerie": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "einwohnerdichte 2019": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "kieze": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Download": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "rosenthaler": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "steuereinnahmen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Kurt-SChumacher-Platz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Hochschulabsolventen nach Fächergruppen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "regierungsbezirke": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "grafitti": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "verunreinigung": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Diversity": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "auslander": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "Berliner Schulen verzeichnis": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "rosenthal": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "geometrie berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "einschulungsgebiete": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "bezirke geometrien": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "transfer": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "proj": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 5.0,
+            "exit_rate": 0.0
+          },
+          "saarau": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "energieverbrauch wohngebäude": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Fallzahlen Corona im September": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "senatsvorlage unterreichtung hauptausschuss": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "1": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "vornamen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "baufertigstellungen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "enegry": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "schweidnitz": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "stromnetze": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "bevölkerung ortsteile": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Diplomatenkennzeichen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Vornamen 2011": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "fach- und finanzpolitische Zielbilder für Beteiligungsunternehmen des Landes Berlin": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "hze": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Strim": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "verordnungsamt": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Gastronomie": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 4.0,
+            "exit_rate": 0.0
+          },
+          "Liste der häufigen Vornamen 2005": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "straßenverzeichnis spandau": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Neubauten": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "COVID": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "denstiy": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Temporäre Spielstraßen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "diplomat": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Auslander": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "verkehrsmittel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 3.0,
+            "exit_rate": 0.0
+          },
+          "Einschulbezirk": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "studentisches wohnen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "Autofreier Tag": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "kischkel": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "tests": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "fahrradfahrer": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 2.0,
+            "exit_rate": 0.0
+          },
+          "grünflächen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 0.0,
+            "exit_rate": 0.0
+          },
+          "Mehrjähriger Finanzrahmen": {
+            "impressions": 1,
+            "visits": 1,
+            "page_duration_avg": 0.0,
+            "exit_rate": 0.0
+          }
+        },
+        "removed_items": {
+          "comment": "Removed 10 searchterms as potentially personal information.",
+          "count": 10
+        }
+      },
       "2020-08": {
         "terms": {
           "Friedrichshain-Kreuzberg": {
