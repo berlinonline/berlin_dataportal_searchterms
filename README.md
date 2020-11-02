@@ -109,7 +109,7 @@ Functional e-mail addresses (addresses not tied to a particular person, but to a
 Searchterms are currently not normalized in any way.
 This means that different spellings of the same term (most importantly: differences in case) are treated as different searchterms.
 It is possible to sum page impressions for each term.
-This is not possible for visits, because the same visit might be include two or more searchterms, and so the actual number of visits for a set of searchterms might be less than the sum of visits for all of them.
+This is not possible for visits, because the same visit might include two or more searchterms, and so the actual number of visits for a set of searchterms might be less than the sum of visits for all of them.
 
 For example:
 
