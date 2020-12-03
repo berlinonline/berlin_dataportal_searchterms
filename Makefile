@@ -1,13 +1,4 @@
-# all: stats compress README.pdf
-
-# stats:
-# 	@echo "generate stats"
-# 	@ruby bin/extract_stats.rb conf/conf.json ${OUT_FOLDER}
-
-# compress:
-# 	@echo "compress daten_berlin_de.stats.json.tgz"
-# 	@rm -f ${OUT_FOLDER}/daten_berlin_de.stats.json.tgz
-# 	@tar -cvzf ${OUT_FOLDER}/daten_berlin_de.stats.json.tgz ${OUT_FOLDER}/daten_berlin_de.stats.json
+all: final README.pdf
 
 final: data/target/daten_berlin_de.searchterms.json
 data/target/daten_berlin_de.searchterms.json: data/temp/daten_berlin_de.searchterms.filtered.json
