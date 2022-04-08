@@ -131,5 +131,14 @@
         "reference": [
             "https://de.wikipedia.org/wiki/Herbert_Marcuse"
         ]
+    },
+    "Alma de l’Aigle": {
+        "variants": [
+            "Alma de lAigle",
+            "Alma de l’Aigle"
+        ] ,
+        "reference": [
+            "https://de.wikipedia.org/wiki/Alma_de_l’Aigle"
+        ]
     }
 }
