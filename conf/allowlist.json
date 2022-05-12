@@ -140,5 +140,32 @@
         "reference": [
             "https://de.wikipedia.org/wiki/Alma_de_l’Aigle"
         ]
+    },
+    "John Cleland": {
+        "variants": [
+            "John Cleland",
+            "Fanny Hill John Cleland"
+        ],
+        "reference": [
+            "https://de.wikipedia.org/wiki/John_Cleland_(Schriftsteller)"                
+        ]
+    },
+    "Fanny Hill": {
+        "variants": [
+            "Die Memoiren der Fanny Hill John Cleland",
+            "Fanny Hill John Cleland"
+        ],
+        "reference": [
+            "https://de.wikipedia.org/wiki/Fanny_Hill"                
+        ]
+    },
+    "Tomer Gardi": {
+        "variants": [
+            "Timer gardi",
+            "Tomer gardi"
+        ],
+        "reference": [
+            "https://de.wikipedia.org/wiki/Tomer_Gardi"
+        ]
     }
 }
