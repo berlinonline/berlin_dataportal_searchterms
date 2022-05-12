@@ -1,0 +1,9 @@
+{
+    "dataset": {
+        "id": "suchbegriffe-daten-berlin-de",
+        "berlin_source": "api-gitaction"
+    },
+    "connection": {
+        "ckan_base": "https://datenregister.berlin.de"
+    }
+}
