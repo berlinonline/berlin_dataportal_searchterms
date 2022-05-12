@@ -2,9 +2,9 @@
 name: Datenregister Dataset Update
 on:
   push:
-    # Pattern matched against refs/tags
-    tags:        
-      - data-*
+    branches:
+      # name of the main branch, could `master` or something more specific
+      - master
 env:
   CKAN_TOKEN: ${{secrets.CKAN_TOKEN}}
 jobs:
