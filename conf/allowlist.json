@@ -175,5 +175,14 @@
         "reference": [
             "https://d-nb.info/gnd/1081522542"
         ]
+    },
+    "Michael Beer": {
+        "variants": [
+            "michael beer"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q107287",
+            "https://d-nb.info/gnd/118657887"
+        ]
     }
 }
