@@ -184,5 +184,13 @@
             "https://www.wikidata.org/wiki/Q107287",
             "https://d-nb.info/gnd/118657887"
         ]
+    },
+    "Georg Lichey": {
+        "variants": [
+            "georg lichey"
+        ],
+        "reference": [
+            "https://d-nb.info/gnd/1032592680"
+        ]
     }
 }
