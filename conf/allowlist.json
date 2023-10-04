@@ -192,5 +192,13 @@
         "reference": [
             "https://d-nb.info/gnd/1032592680"
         ]
+    },
+    "Hela Strehl": {
+        "variants": [
+            "hela strehl"
+        ],
+        "reference": [
+            "https://d-nb.info/gnd/126986827"
+        ]
     }
 }
