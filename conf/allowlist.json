@@ -200,5 +200,13 @@
         "reference": [
             "https://d-nb.info/gnd/126986827"
         ]
+    },
+    "Amy Sparkes": {
+        "variants": [
+            "Amy sparkes"
+        ],
+        "reference": [
+            "https://d-nb.info/gnd/1051405343"
+        ]
     }
 }
