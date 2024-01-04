@@ -208,5 +208,13 @@
         "reference": [
             "https://d-nb.info/gnd/1051405343"
         ]
+    },
+    "E. von Szcepanska": {
+        "variants": [
+            "E. von Szcepasnka"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q116786700"
+        ]
     }
 }
