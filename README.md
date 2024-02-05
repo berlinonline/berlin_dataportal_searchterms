@@ -14,6 +14,7 @@ The required gems are defined in the [Gemfile](Gemfile). In particuler, these ar
 
 - [webtrekk_connector](https://rubygems.org/gems/webtrekk_connector)
 - [ruby-keychain](https://rubygems.org/gems/ruby-keychain)
+- [activesupport](https://rubygems.org/gems/activesupport)
 
 If you have [bundler](https://bundler.io), you can install the required gems as follows:
 
