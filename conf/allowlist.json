@@ -216,5 +216,15 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q116786700"
         ]
+    },
+    "Paula Ludwig": {
+        "variants": [
+            "Paula Ludwig",
+            "Ludwig, Paula"
+        ],
+        "reference": [
+            "https://d-nb.info/gnd/118959948",
+            "https://www.wikidata.org/wiki/Q215769"
+        ]
     }
 }
