@@ -232,4 +232,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2021, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2024-04-29
+Last changed: 2024-05-31
