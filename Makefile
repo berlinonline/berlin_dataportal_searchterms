@@ -12,17 +12,18 @@ data/target/daten_berlin_de.searchterms.%.csv:
 	@bin/csv_for.sh data/target/daten_berlin_de.searchterms.json $@
 
 filtered: data/temp/daten_berlin_de.searchterms.filtered.json
-data/temp/daten_berlin_de.searchterms.filtered.json: data/temp/daten_berlin_de.searchterms.unfiltered.json conf/blocklist.json conf/allowlist.json
-	@echo "filtering $< for personal data, applying $(word 2,$^) ..."
+.PHONY: data/temp/daten_berlin_de.searchterms.filtered.json
+data/temp/daten_berlin_de.searchterms.filtered.json: data/temp
+	@echo "extracting search terms with filtering ..."
 	@echo "writing to $@ ..."
-	@ruby bin/filter_searchterms.rb $< $@ data/temp/rejected.csv $(word 2,$^) $(word 3,$^)
+	@python bin/extract_searchterms.py -o $@
 
 unfiltered: data/temp/daten_berlin_de.searchterms.unfiltered.json
 .PHONY: data/temp/daten_berlin_de.searchterms.unfiltered.json
 data/temp/daten_berlin_de.searchterms.unfiltered.json: data/temp
 	@echo "extracting search terms ..."
 	@echo "writing to $@ ..."
-	@ruby bin/extract_searchterms.rb conf/conf.json $@
+	@python bin/extract_searchterms.py -o $@
  
 README.pdf: README.md
 	@echo "generate README.pdf from README.md"

@@ -2,35 +2,59 @@
     "site_uri" : "daten.berlin.de" ,
     "startDate": "2019-02-01" ,
     "searchterms": {
-        "rowLimit": 10000,
-        "hideFooters": 1 ,
-        "analysisObjects": [
-            {
-                "title": "Pages"
-            }
-        ] ,
-        "analysisFilter": {
-            "filterRules": [
+        "resultType": "DATA_ONLY",
+        "queryObject": {
+            "columns": [
                 {
-                    "objectTitle": "Pages" ,
-                    "comparator": "=" ,
-                    "filter": "daten.berlin.de/search/node/*"
+                    "name": "searchPhrases_internal",
+                    "scope": "OBJECT",
+                    "context": "PAGE",
+                    "variant": "NORMAL",
+                    "lowerLimit": 1,
+                    "upperLimit": 10000
+                },
+                {
+                    "name": "visits",
+                    "columnPeriod": "ANALYSIS",
+                    "sortDirection": "DESCENDING",
+                    "sortIndex": 1,
+                    "scope": "OBJECT",
+                    "context": "SESSION"
+                },
+                {
+                    "name": "pages_pageImpressions",
+                    "columnPeriod": "ANALYSIS",
+                    "sortDirection": "DESCENDING",
+                    "sortIndex": 2,
+                    "scope": "OBJECT",
+                    "context": "PAGE"
+                },
+                {
+                    "name": "pages_durationAvg",
+                    "columnPeriod": "ANALYSIS",
+                    "scope": "OBJECT"
+                },
+                {
+                    "name": "pages_exitRate",
+                    "columnPeriod": "ANALYSIS",
+                    "scope": "OBJECT"
                 }
-            ]
-        } ,
-        "metrics": [
-            {
-                "title": "Page Impressions"
-            } ,
-            {
-                "title": "Visits"
-            } ,
-            {
-                "title": "Page Duration Avg"
-            } ,
-            {
-                "title": "Exit Rate %"
-            }
-        ]
-    }
+            ],
+            "predefinedContainer": {
+                "filters": [
+                    {
+                        "name": "pages",
+                        "connector": "AND",
+                        "filterPredicate": "LIKE",
+                        "value1": "daten.berlin.de/*",
+                        "value2": "",
+                        "context": "PAGE",
+                        "caseSensitive": false
+                    }
+                ],
+                "containers": []
+            },
+            "variant": "LIST"
+        }
+    }    
 }

@@ -1,1 +1,4 @@
 git+https://github.com/berlinonline/ckan_metadata_updater
+keyring
+python-dateutil
+requests
