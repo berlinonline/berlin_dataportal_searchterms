@@ -7,12 +7,12 @@ from argparse import Namespace
 from datetime import datetime
 from time import sleep
 
-import keyring
 import requests
 from dateutil.relativedelta import relativedelta
 
 MAPP_URL = os.environ['MAPP_URL']
 MAPP_USER = os.environ['MAPP_USER']
+MAPP_PW = os.environ.get('MAPP_PW')
 
 def get_token(user: str, password: str)-> str:
     '''Get an access token from Mapp for a given user and password.'''
@@ -76,8 +76,6 @@ def run_analysis_query(query: str, token: str) -> dict:
         sys.exit(1)
 
     return data
-
-
 
 def time_range_for_month(month: str) -> tuple[str, str]:
     '''Return the start and end time of a time range defined by a year-month (YYYY-MM).'''
@@ -176,8 +174,14 @@ filters.append(time_filter)
 
 payload = json.dumps(config["searchterms"])
 logging.info(" query defined ...")
-mapp_pw = keyring.get_password('mapp_api', MAPP_USER)
-token = get_token(MAPP_USER, mapp_pw)
+if not MAPP_PW:
+    try:
+        import keyring
+    except ImportError:
+        logging.error(" could not import 'keyring', and MAPP_PW is not set")
+        sys.exit(1)
+    MAPP_PW = keyring.get_password('mapp_api', MAPP_USER)
+token = get_token(MAPP_USER, MAPP_PW)
 logging.info(" token received ...")
 data = run_analysis_query(payload, token)
 logging.info(" query run ...")

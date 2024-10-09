@@ -1,4 +1,4 @@
 git+https://github.com/berlinonline/ckan_metadata_updater
-keyring
+# keyring <-- only on MacOS
 python-dateutil
 requests
