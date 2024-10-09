@@ -7,20 +7,30 @@ Terms are collected per month (starting in February 2019, when we started using 
 
 ## Requirements
 
-The code to extract the searchterm statistics is written in Ruby.
-It has been tested with Ruby 2.7.1.
+The code to extract the searchterm statistics is written in Python.
+It has been tested with Python 3.12.4.
 
-The required gems are defined in the [Gemfile](Gemfile). In particuler, these are:
+The required libraries are defined in [requirements.txt](requirements.txt).
+In particuler, these are:
 
-- [webtrekk_connector](https://rubygems.org/gems/webtrekk_connector)
-- [ruby-keychain](https://rubygems.org/gems/ruby-keychain)
-- [activesupport](https://rubygems.org/gems/activesupport)
+- [ckan_metadata_updater](https://github.com/berlinonline/ckan_metadata_updater)
+- keyring
+- python-dateutil
+- requests
 
-If you have [bundler](https://bundler.io), you can install the required gems as follows:
+Set up a virtual environment and install the required libraries there:
 
 ```
-bundle install
+berlin_dataportal_searchterms % python -m venv venv
+(venv) berlin_dataportal_searchterms % pip install -r requirements.txt
 ```
+
+You need to set two environment variables:
+
+- `MAPP_URL`: The base URL of the Mapp service, most likely https://intelligence.eu.mapp.com.
+- `MAPP_USER`: The username of the Mapp user that is going to run the query to retrieve the statistics.
+- `MAPP_PW`: The password of the Mapp user that is going to run the query to retrieve the statistics.
+  - Alternatively, on MacOS, you can install the `keyring` library (`pip install keyring`) and set the password there, as a key called `mapp_api` and with the user name given by `MAPP_PW`.
 
 ## daten_berlin_de.searchterms.json
 
@@ -149,6 +159,9 @@ However, the total number of visits for all spellings of `corona` is `20+6=26` _
 ## How to Update the Search Data with a New Month
 
 Because adding a new month to the data involves manually editing the blocklist and allowlist, it is more complicated than just running a make target.
+
+**The following information is based on the old Ruby-based code and is no longer valid:**
+
 Here is what needs to be done:
 
 ### Extract the Unfiltered Data
@@ -230,6 +243,6 @@ Dataset URL: [https://daten.berlin.de/datensaetze/suchbegriffe-datenberlinde](ht
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_searchterms](https://github.com/berlinonline/berlin_dataportal_searchterms).
 
-2021, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
+2024, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2024-10-08
+Last changed: 2024-10-09
