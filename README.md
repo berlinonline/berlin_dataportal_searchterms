@@ -243,6 +243,6 @@ Dataset URL: [https://daten.berlin.de/datensaetze/suchbegriffe-datenberlinde](ht
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_searchterms](https://github.com/berlinonline/berlin_dataportal_searchterms).
 
-2024, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
+2024, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2024-10-09
+Last changed: 2024-10-18
