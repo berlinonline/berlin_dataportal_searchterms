@@ -239,7 +239,7 @@ All data in this repository (in particular the `.json` files) is published under
 
 ---
 
-Dataset URL: [https://daten.berlin.de/datensaetze/suchbegriffe-datenberlinde](https://daten.berlin.de/datensaetze/suchbegriffe-datenberlinde)
+Dataset URL: [https://daten.berlin.de/datensaetze/suchbegriffe-daten-berlin-de](https://daten.berlin.de/datensaetze/suchbegriffe-daten-berlin-de)
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_searchterms](https://github.com/berlinonline/berlin_dataportal_searchterms).
 
