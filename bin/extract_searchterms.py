@@ -6,6 +6,7 @@ import sys
 from argparse import Namespace
 from datetime import datetime
 from time import sleep
+from urllib.parse import quote, unquote
 
 import requests
 from dateutil.relativedelta import relativedelta
@@ -189,8 +190,8 @@ logging.info(" query run ...")
 term_list = data['rows']
 terms_dict = {}
 
-blocked_terms = [term for term in term_list if term[0] in blocklist_flat]
-term_list = [term for term in term_list if term[0] not in blocklist_flat]
+blocked_terms = [term for term in term_list if unquote(term[0]) in blocklist_flat]
+term_list = [term for term in term_list if unquote(term[0]) not in blocklist_flat]
 
 month_dict = {}
 for term in term_list:

@@ -36,6 +36,11 @@ README.md: data/temp/date.txt
 	@cat _README.md $< > README.md
 	@rm _README.md
 
+data/temp/terms_%.unquoted.json: data/temp/terms_%.json
+	@echo "Unquoting the terms in $< ..."
+	@echo "writing to $@ ..."
+	@python bin/unquote.py $< > $@
+
 data/temp/terms_%.json:
 	@echo "extracting list of searchterms from data/temp/daten_berlin_de.searchterms.unfiltered.json ..."
 	@echo "writing to $@ ..."
