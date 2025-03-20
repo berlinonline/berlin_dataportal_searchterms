@@ -226,5 +226,15 @@
             "https://d-nb.info/gnd/118959948",
             "https://www.wikidata.org/wiki/Q215769"
         ]
+    },
+    "Marcel Luthe": {
+        "variants": [
+            "marcel luthe",
+            "Marcel Luthe",
+            "Luthe, Marcel"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q26964315"
+        ]
     }
 }
