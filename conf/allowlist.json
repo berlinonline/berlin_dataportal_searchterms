@@ -236,5 +236,14 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q26964315"
         ]
+    },
+    "Richard Katz": {
+        "variants": [
+            "richard katz"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q111439",
+            "https://d-nb.info/gnd/118560662"
+        ]
     }
 }
