@@ -254,5 +254,21 @@
             "https://www.kunst40.de/künstler/michail-schnittmann/",
             "http://www.michail-schnittmann.de"
         ]
+    },
+    "Thomas Müller": {
+        "variants": [
+            "thomas müller"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q43666"
+        ]
+    },
+    "Max Ebel": {
+        "variants": [
+            "ebel max"
+        ],
+        "reference": [
+            "https://www.stolpersteine-berlin.de/en/hindenburgdamm/118/max-ebel"
+        ]
     }
 }
