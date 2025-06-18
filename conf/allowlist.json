@@ -245,5 +245,14 @@
             "https://www.wikidata.org/wiki/Q111439",
             "https://d-nb.info/gnd/118560662"
         ]
+    },
+    "Michael Schnittmann": {
+        "variants": [
+            "michail schnittmann"
+        ],
+        "reference": [
+            "https://www.kunst40.de/künstler/michail-schnittmann/",
+            "http://www.michail-schnittmann.de"
+        ]
     }
 }
