@@ -270,5 +270,22 @@
         "reference": [
             "https://www.stolpersteine-berlin.de/en/hindenburgdamm/118/max-ebel"
         ]
+    },
+    "Adriano de Souza": {
+        "variants": [
+            "adriano de souza"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q2825086"
+        ]
+    },
+    "Barbara Slowik": {
+        "variants": [
+            "frau dr. slovik",
+            "frau slovik"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q51717967"
+        ]
     }
 }
