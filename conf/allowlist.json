@@ -287,5 +287,13 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q51717967"
         ]
+    },
+    "Helene Fischer": {
+        "variants": [
+            "helene fischer"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q236549"
+        ]
     }
 }
