@@ -295,5 +295,21 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q236549"
         ]
+    },
+    "Pitt Kreuzberg": {
+        "variants": [
+            "\"peter josef kreuzberg\""
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q1740758"
+        ]
+    },
+    "Alice Behrend": {
+        "variants": [
+            "alice behrend"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q2646840"
+        ]
     }
 }
