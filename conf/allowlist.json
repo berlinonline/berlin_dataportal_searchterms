@@ -311,5 +311,233 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q2646840"
         ]
+    },
+    "Adolf Hitler": {
+        "variants": [
+            "adolf hitler",
+            "adopf hitler"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q352"
+        ]
+    },
+    "Albert Speer": {
+        "variants": [
+            "albert speer"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q60045"
+        ]
+    },
+    "Amy Winehouse": {
+        "variants": [
+            "amy winehouse",
+            "amy winhouse"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q15897"
+        ]
+    },
+    "Angela Merkel": {
+        "variants": [
+            "angela merkel",
+            "angela maerkel"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q567"
+        ]
+    },
+    "Arthur Miller": {
+        "variants": [
+            "arthur miller"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q80596"
+        ]
+    },
+    "Osama bin Laden": {
+        "variants": [
+            "bin laden"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q1317"
+        ]
+    },
+    "Britney Spears": {
+        "variants": [
+            "britney spears",
+            "brittney spears"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q11975"
+        ]
+    },
+    "Kurt Cobain": {
+        "variants": [
+            "kurt cobain",
+            "curt kubain"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q8446"
+        ]
+    },
+    "Emil Nolde": {
+        "variants": [
+            "emil nolde"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q152788"
+        ]
+    },
+    "Eva Braun": {
+        "variants": [
+            "eva braun",
+            "eva-braun"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q76433"
+        ]
+    },
+    "Freddy Mercury": {
+        "variants": [
+            "freddy mercury",
+            "freddy mercuri"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q15869"
+        ]
+    },
+    "Friedrich Merz": {
+        "variants": [
+            "friedrich merz"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q566257"
+        ]
+    },
+    "Gudrun Ensslin": {
+        "variants": [
+            "gudrun ensslin"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q65123"
+        ]
+    },
+    "Günter Grass": {
+        "variants": [
+            "Günter Grass",
+            "güther grass"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q6538"
+        ]
+    },
+    "Hermann Göring": {
+        "variants": [
+            "hermann gÖring"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q47906"
+        ]
+    },
+    "Jan Marsalek": {
+        "variants": [
+            "jan marsalek"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q96971766"
+        ]
+    },
+    "Janis Joplin": {
+        "variants": [
+            "janis joplin"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q1514"
+        ]
+    },
+    "Jimi Hendrix": {
+        "variants": [
+            "jimi hendrix"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q5928"
+        ]
+    },
+    "John F. Kennedy": {
+        "variants": [
+            "john f. kennedy",
+            "john f kennedy"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q9696"
+        ]
+    },
+    "Marilyn Monroe": {
+        "variants": [
+            "marilyn monroe",
+            "marily monroe"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q4616"
+        ]
+    },
+    "Mickey Mouse": {
+        "variants": [
+            "mickey mouse"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q11934"
+        ]
+    },
+    "Minnie Mouse": {
+        "variants": [
+            "minnie mouse"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q11936"
+        ]
+    },
+    "Paul Celan": {
+        "variants": [
+            "paul celan"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q153905"
+        ]
+    },
+    "Suzie Quatro": {
+        "variants": [
+            "suzie quatro",
+            "suzie quattro"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q234750"
+        ]
+    },
+    "Thilo Sarrazin": {
+        "variants": [
+            "thilo sarrazin",
+            "thilo sarazin"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q57954"
+        ]
+    },
+    "Udo Jürgens": {
+        "variants": [
+            "udo jürgens"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q155236"
+        ]
+    },
+    "Udo Lindenberg": {
+        "variants": [
+            "udo lindenberg"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q312572"
+        ]
     }
 }
