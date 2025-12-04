@@ -539,5 +539,21 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q312572"
         ]
+    },
+    "Richard Friedenthal": {
+        "variants": [
+            "richard friedenthal"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q100872"
+        ]
+    },
+    "Curt von Westernhagen": {
+        "variants": [
+            "curt von westernhagen"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q59628118"
+        ]
     }
 }
