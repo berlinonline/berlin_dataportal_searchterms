@@ -555,5 +555,15 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q59628118"
         ]
+    },
+    "Mascha Kaléko": {
+        "variants": [
+            "mascha kalecko"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q215943",
+            "https://d-nb.info/gnd/118776592"
+        ]
     }
+
 }
