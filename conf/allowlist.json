@@ -564,6 +564,22 @@
             "https://www.wikidata.org/wiki/Q215943",
             "https://d-nb.info/gnd/118776592"
         ]
+    },
+    "Christa Anita Brück": {
+        "variants": [
+            "christa-anita brück"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q20979758",
+            "https://d-nb.info/gnd/1031833447"
+        ]
+    },
+    "Jim Reeves": {
+        "variants": [
+            "jim reeves"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q362435"
+        ]
     }
-
 }
