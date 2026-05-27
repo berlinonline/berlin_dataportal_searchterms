@@ -581,5 +581,30 @@
         "reference": [
             "https://www.wikidata.org/wiki/Q362435"
         ]
+    },
+    "Erich Kästner": {
+        "variants": [
+            "erich kästner"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q76546"
+        ]
+    },
+    "Xi Jinping": {
+        "variants": [
+            "xi jinping"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q15031"
+        ]
+    },
+    "Otto Zacke": {
+        "variants": [
+            "otto zacke"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q139848246",
+            "https://d-nb.info/578455307"
+        ]
     }
 }
