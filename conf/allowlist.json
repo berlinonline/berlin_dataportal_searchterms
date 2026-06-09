@@ -606,5 +606,14 @@
             "https://www.wikidata.org/wiki/Q139848246",
             "https://d-nb.info/578455307"
         ]
+    },
+    "Harald Fuchs": {
+        "variants": [
+            "kontakt harald fuchs"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q23063280",
+            "https://id.oclc.org/worldcat/entity/E39PBJpV3YHhYMWQDK9C3kpgKd"
+        ]
     }
 }
