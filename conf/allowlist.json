@@ -615,5 +615,21 @@
             "https://www.wikidata.org/wiki/Q23063280",
             "https://id.oclc.org/worldcat/entity/E39PBJpV3YHhYMWQDK9C3kpgKd"
         ]
+    },
+    "Angela Martin": {
+        "variants": [
+            "angela martin"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q4762500"
+        ]
+    },
+    "Bettina Rust": {
+        "variants": [
+            "frau rust"
+        ],
+        "reference": [
+            "https://www.wikidata.org/wiki/Q850035"
+        ]
     }
 }
