@@ -1,5 +1,4 @@
 from datetime import date, timedelta
-import json
 import logging
 from berlinonline.ckan_metadata_updater import CKANMetadataUpdater
 
