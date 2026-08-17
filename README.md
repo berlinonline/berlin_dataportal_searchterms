@@ -245,4 +245,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2026, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2026-07-30
+Last changed: 2026-08-17
