@@ -6,12 +6,11 @@ import sys
 from argparse import Namespace
 from datetime import datetime
 from time import sleep
-from urllib.parse import quote, unquote
+from urllib.parse import unquote
 
 import pytz
 import requests
 from dateutil.relativedelta import relativedelta
-
 
 MAPP_URL = os.environ['MAPP_URL']
 MAPP_USER = os.environ['MAPP_USER']
