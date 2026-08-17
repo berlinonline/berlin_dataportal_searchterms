@@ -34,7 +34,7 @@ def get_token(user: str, password: str)-> str:
 
     # something went wrong
     if response.status_code != 200:
-        LOGGER.error(f" Autorization returned {str(response)}")
+        LOGGER.error(f" Autorization returned {response}")
         sys.exit(1)
 
     # get the token (make a dictionary using json, then extract the actual token)
@@ -58,7 +58,7 @@ def run_analysis_query(query: str, token: str) -> dict:
         response = requests.request("POST", url, data=payload, headers=headers)
         if response.status_code > 201:
             LOGGER.error(f" Call to analysis-query failed: {response}")
-            exit()
+            sys.exit()
         # unpack the response
         values = json.loads(response.text)
 
@@ -87,7 +87,7 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     # Parse the input string to a datetime object
     try:
         start_date = datetime.strptime(month, "%Y-%m").replace(tzinfo=TZ)
-    except ValueError as e:
+    except ValueError:
         LOGGER.error(" --month must be either YYYY-MM or 'previous'.")
         sys.exit(1)
 
@@ -128,8 +128,8 @@ def load_json_file(parameter: str, args: Namespace) -> dict:
     path = getattr(args, parameter)
     LOGGER.info(f" loading {parameter} data from {path} ...")
     if os.path.isfile(path):
-        config_file = open(path)
-        config = json.load(config_file)
+        with (open(path)) as config_file:
+            config = json.load(config_file)
     else:
         LOGGER.error(f" --{parameter} must be a filepath.")
         sys.exit(1)
@@ -202,8 +202,8 @@ for term in term_list:
     term_dict = {
         "impressions": term[2],
         "visits": term[1],
-        "page_duration_avg": float("{:.2f}".format(term[3])),
-        "exit_rate": float("{:.2f}".format(term[4]))
+        "page_duration_avg": float(f"{term[3]:.2f}"),
+        "exit_rate": float(f"{term[4]:.2f}")
     }
     terms_dict[term[0]] = term_dict
 month_dict['terms'] = terms_dict
@@ -217,7 +217,7 @@ out_data['stats']['months'][month] = month_dict
 
 out_data['stats']['months'] = {k: out_data['stats']['months'][k] for k in sorted(out_data['stats']['months'], reverse=True)}
 
-months = sorted(list(out_data['stats']['months'].keys()))
+months = sorted(out_data['stats']['months'].keys())
 earliest = months[0]
 latest = months[-1]
 
