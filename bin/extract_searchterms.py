@@ -14,6 +14,7 @@ from dateutil.relativedelta import relativedelta
 MAPP_URL = os.environ['MAPP_URL']
 MAPP_USER = os.environ['MAPP_USER']
 MAPP_PW = os.environ.get('MAPP_PW')
+LOGGER = logging.getLogger(__name__)
 
 def get_token(user: str, password: str)-> str:
     '''Get an access token from Mapp for a given user and password.'''
@@ -25,12 +26,12 @@ def get_token(user: str, password: str)-> str:
     try:
         response = requests.request("POST", url, auth=(user, password), params=querystring)
     except requests.exceptions.RequestException as e:
-        logging.error(f" Failed to connect and authorize: {e}")
+        LOGGER.error(f" Failed to connect and authorize: {e}")
         sys.exit(1)
 
     # something went wrong
     if response.status_code != 200:
-        logging.error(f" Autorization returned {str(response)}")
+        LOGGER.error(f" Autorization returned {str(response)}")
         sys.exit(1)
 
     # get the token (make a dictionary using json, then extract the actual token)
@@ -53,7 +54,7 @@ def run_analysis_query(query: str, token: str) -> dict:
 
         response = requests.request("POST", url, data=payload, headers=headers)
         if response.status_code > 201:
-            logging.error(f" Call to analysis-query failed: {response}")
+            LOGGER.error(f" Call to analysis-query failed: {response}")
             exit()
         # unpack the response
         values = json.loads(response.text)
@@ -62,18 +63,18 @@ def run_analysis_query(query: str, token: str) -> dict:
         statusUrl = values.get('statusUrl', False)
         while not resultUrl:
             sleep(0.5)
-            logging.info(f" calling {statusUrl}")
+            LOGGER.info(f" calling {statusUrl}")
             # call the status URL, and refresh the values of the URLs
             response = requests.request("GET", statusUrl, headers=headers)
             values = json.loads(response.text)
             resultUrl = values.get('resultUrl', False)
 
-        logging.info(f" we have a result at {resultUrl}")
+        LOGGER.info(f" we have a result at {resultUrl}")
         response = requests.request("GET", resultUrl, headers=headers)
         data = json.loads(response.text)
     except requests.exceptions.RequestException as e:
         # something went wrong
-        logging.error(f" Failed to retrieve analysis: {e}")
+        LOGGER.error(f" Failed to retrieve analysis: {e}")
         sys.exit(1)
 
     return data
@@ -84,7 +85,7 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     try:
         start_date = datetime.strptime(month, "%Y-%m")
     except ValueError as e:
-        logging.error(" --month must be either YYYY-MM or 'previous'.")
+        LOGGER.error(" --month must be either YYYY-MM or 'previous'.")
         sys.exit(1)
 
     # Calculate the first day of the next month
@@ -122,12 +123,12 @@ def time_filter_for_month(time_filter: dict, month: str) -> dict:
 def load_json_file(parameter: str, args: Namespace) -> dict:
     '''Load a json file from `file_path` for `parameter`.'''
     path = getattr(args, parameter)
-    logging.info(f" loading {parameter} data from {path} ...")
+    LOGGER.info(f" loading {parameter} data from {path} ...")
     if os.path.isfile(path):
         config_file = open(path)
         config = json.load(config_file)
     else:
-        logging.error(f" --{parameter} must be a filepath.")
+        LOGGER.error(f" --{parameter} must be a filepath.")
         sys.exit(1)
     return config
 
@@ -165,27 +166,27 @@ if month == 'previous':
     now = datetime.now()
     previous_month = now - relativedelta(months=1)
     month = previous_month.strftime("%Y-%m")
-    logging.info(f" 'previous' evaluated to {month}")
+    LOGGER.info(f" 'previous' evaluated to {month}")
 
-logging.info(f" adjusitng time filter to {month} ...")
+LOGGER.info(f" adjusitng time filter to {month} ...")
 time_filter = time_filter_for_month(time_filter, month)
 
 filters = config["searchterms"]["queryObject"]["predefinedContainer"]["filters"]
 filters.append(time_filter)
 
 payload = json.dumps(config["searchterms"])
-logging.info(" query defined ...")
+LOGGER.info(" query defined ...")
 if not MAPP_PW:
     try:
         import keyring
     except ImportError:
-        logging.error(" could not import 'keyring', and MAPP_PW is not set")
+        LOGGER.error(" could not import 'keyring', and MAPP_PW is not set")
         sys.exit(1)
     MAPP_PW = keyring.get_password('mapp_api', MAPP_USER)
 token = get_token(MAPP_USER, MAPP_PW)
-logging.info(" token received ...")
+LOGGER.info(" token received ...")
 data = run_analysis_query(payload, token)
-logging.info(" query run ...")
+LOGGER.info(" query run ...")
 
 term_list = data['rows']
 terms_dict = {}
@@ -221,7 +222,7 @@ out_data['stats']['earliest'] = earliest
 out_data['stats']['latest'] = latest
 
 out_json = json.dumps(out_data, indent=2, ensure_ascii=False)
-logging.info(f" writing output to {args.outfile} ...")
+LOGGER.info(f" writing output to {args.outfile} ...")
 with open(args.outfile, 'w') as output:
     output.write(out_json)
 
