@@ -8,13 +8,17 @@ from datetime import datetime
 from time import sleep
 from urllib.parse import quote, unquote
 
+import pytz
 import requests
 from dateutil.relativedelta import relativedelta
+
 
 MAPP_URL = os.environ['MAPP_URL']
 MAPP_USER = os.environ['MAPP_USER']
 MAPP_PW = os.environ.get('MAPP_PW')
 LOGGER = logging.getLogger(__name__)
+TZ_NAME = 'Europe/Berlin'
+TZ = pytz.timezone(TZ_NAME)
 
 def get_token(user: str, password: str)-> str:
     '''Get an access token from Mapp for a given user and password.'''
@@ -83,7 +87,7 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     '''Return the start and end time of a time range defined by a year-month (YYYY-MM).'''
     # Parse the input string to a datetime object
     try:
-        start_date = datetime.strptime(month, "%Y-%m")
+        start_date = datetime.strptime(month, "%Y-%m").replace(tzinfo=TZ)
     except ValueError as e:
         LOGGER.error(" --month must be either YYYY-MM or 'previous'.")
         sys.exit(1)
@@ -91,9 +95,9 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     # Calculate the first day of the next month
     # If it's December, move to the next January of the following year
     if start_date.month == 12:
-        next_month_date = datetime(start_date.year + 1, 1, 1)
+        next_month_date = datetime(start_date.year + 1, 1, 1, tzinfo=TZ)
     else:
-        next_month_date = datetime(start_date.year, start_date.month + 1, 1)
+        next_month_date = datetime(start_date.year, start_date.month + 1, 1, tzinfo=TZ)
     
     # Format both dates to the desired string format
     start_str = start_date.strftime("%Y-%m-%d %H:%M:%S")
@@ -163,7 +167,7 @@ time_filter = {
 
 month = args.month
 if month == 'previous':
-    now = datetime.now()
+    now = datetime.now(tz=TZ)
     previous_month = now - relativedelta(months=1)
     month = previous_month.strftime("%Y-%m")
     LOGGER.info(f" 'previous' evaluated to {month}")
@@ -209,7 +213,7 @@ month_dict['removed_items'] = {
     "count": len(blocked_terms)
 }
 
-out_data['timestamp'] = datetime.isoformat(datetime.now())
+out_data['timestamp'] = datetime.isoformat(datetime.now(tz=TZ))
 out_data['stats']['months'][month] = month_dict
 
 out_data['stats']['months'] = {k: out_data['stats']['months'][k] for k in sorted(out_data['stats']['months'], reverse=True)}

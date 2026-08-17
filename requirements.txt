@@ -2,3 +2,4 @@ ckan-metadata-updater @ git+https://github.com/berlinonline/ckan_metadata_update
 # keyring <-- only on MacOS
 python-dateutil
 requests
+pytz
